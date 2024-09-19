@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "821883102436",
+    "project_id": "applicationim-551c8",
+    "storage_bucket": "applicationim-551c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821883102436:android:63e4e3f06e3b934d4038f1",
+        "android_client_info": {
+          "package_name": "com.rahuldubey.applicationim"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS_dtOZlPfteb0150BkyYjsLZdjR-bkG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

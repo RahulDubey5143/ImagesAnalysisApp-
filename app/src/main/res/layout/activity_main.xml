@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:background="#e0e0e0"/>
+
+        <Button
+            android:id="@+id/buttonSelectImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Image"/>
+
+        <Button
+            android:id="@+id/buttonCaptureImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capture Image"/>
+
+        <Button
+            android:id="@+id/btnNextActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Next Activity"/>
+
+        <TextView
+            android:id="@+id/textViewKm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kilometers: "
+            android:textSize="18sp"
+            android:paddingTop="16dp"/>
+
+
+</LinearLayout>
